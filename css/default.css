@@ -67,7 +67,7 @@
   padding-right: 5%;
   width: 50px;
 }
-#page0-insta > img {
+#page0-insta > a > img {
   width: 100%;
 }
 .page1 {
@@ -125,5 +125,89 @@
   max-height: 100%;
   width: auto;
   height: auto;
-  object-fit: cover;
+  /*  object-fit: cover;*/
+}
+.page3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+#page3-img {
+  position: relative;
+  margin: 5%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page3-img > img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+.page4 {
+  position: relative;
+  display: flex;
+  flex-direction: column
+}
+.page4 .default-title {
+  flex: 0;
+}
+#page4-img {
+  position: relative;
+  margin: 5%;
+  flex: 1;
+}
+#page4-img > img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  right: 0;
+}
+.page5 {
+  position: relative;
+  display: flex;
+  flex-direction: column
+}
+.page5 .default-title {
+  flex: 0;
+}
+#page5-img {
+  position: relative;
+  margin: 5%;
+  flex: 1;
+}
+#page5-img > img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto; 
+  height: auto;
+}
+.page6 {
+  position: relative;
+  display: flex;
+  flex-direction: column
+}
+.page6 .default-title {
+  flex: 0;
+}
+#page6-img {
+  position: relative;
+  margin: 5%;
+  flex: 1;
+}
+#page6-img > img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  right: 0;
 }
