@@ -49,9 +49,9 @@ input#menu_checkbox {
   max-height: 0;
   overflow: hidden;
   line-height: 1.5;
-	width: fit-content;
-	padding-left:5%;
-	padding-right:5%;
+  width: fit-content;
+  padding-left:5%;
+  padding-right:5%;
 }
 #site-navigation ul {
   padding-top: .5%;
@@ -124,11 +124,11 @@ input:checked ~ #site-navigation {
 }
 #page0-location > div {
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 170%;
+  font-size: 160%;
   width: 100%;
 }
 #page0-insta {
